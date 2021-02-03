@@ -3,26 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>furi_js 置換マシン</title>
+  <title>テキスト置換マシン＠ayuchans</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="main">
 
-  <h1>テキスト置換マシン</h1>
+    <h1>◆ テキスト置換マシン ◆</h1>
 
-  <div>
-    <textarea name="" id="" cols="60" rows="5">
-      完璧なタイミングを待っていてはいけない。
-      金はいつでも稼げるが、
-      時間だけは取り戻せないことをくれぐれも、
-      忘れることないように。
-    </textarea>
+    <div id="body">
+
+
+      <div id="textarea">
+        <h2>◇テキスト入力◇</h2>
+        <textarea name=""  cols="50" rows="6" >
+        </textarea>
+      </div>
+      
+
+      <div id="input">
+        <input type="text" id="findtxt" placeholder="検索文字列" >
+        <input type="text" id="reptxt" placeholder="置換文字列" >
+        <button>置換</button>
+      </div>
+
+    </div>
+
+    <div id="result">
+      <h2>◇結果表示◇</h2>
+      <p></p>
+    </div>
+    
+
   </div>
   
-  <input type="text" id="findtxt" placeholder="検索文字列" >
-  <input type="text" id="reptxt" placeholder="置換文字列" >
-  <button>置換</button>
-
-  <p>結果表示</p>
 
 
   <script src="main.js"></script>
