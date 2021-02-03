@@ -125,10 +125,7 @@ body {
   resize: none;
   border: solid 2px #dddddd;
   border-radius: 20px;
-}
-
-::placeholder {
-  color: gray;
+  font-weight: bold;
 }
 
 
@@ -146,6 +143,7 @@ body {
   height: 50px;
   border: solid 2px #dddddd;
   border-radius: 10px;
+  font-weight: bold;
 }
 
 #input button {
@@ -184,4 +182,7 @@ h2 {
   height: 150px;
   background-color: #fff;
   border-radius: 10px;
+  padding: 7px 3px;
+  border: solid 2px #dddddd;
+  font-weight: bold;
 }
